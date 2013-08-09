@@ -7,12 +7,12 @@ Stable tag: 0.1
 License: GPLv2 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add the operating-system's abbraviation ("win", "mac", "linux") as a CSS-Class to the body-tag.
+Add the operating-system's abbreviation ("win", "mac", "linux") as a CSS-Class to the body-tag.
 
 == Description ==
 
 This plugin adds a abbreviation of the operating system (win, mac, linux) to the body-tag.
-So if there's a OS-difference, you can easily react to it by using the selector (e.g. .mac).
+So if there's a OS-specific difference, you can easily react to it by using the css-selector (e.g. ".mac").
 
 Next steps of this plugin:
 * adding a settings page 
@@ -25,11 +25,7 @@ let me know, if you wish something helpful.
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
-
-e.g.
-
-1. Upload `OS Adder` to the `/wp-content/plugins/` directory
+1. Upload `OS Adder` to the `/wp-content/plugins/` directory or access it via the wordpress plugin site
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. You're done.
 
@@ -50,4 +46,3 @@ No, it's just "win", "mac", "linux", or "os-unknown".
 = 0.1 =
 * Starting the plugin
 
-`<?php code(); // goes in backticks ?>`
