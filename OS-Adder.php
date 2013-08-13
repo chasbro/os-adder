@@ -8,21 +8,15 @@ Author: Lukas Kindermann
 ?>
 <?php
 //setting javascript
-wp_enqueue_script("jquery");
-add_action('wp_head', 'insert_head_OSA');
+add_action("wp_enqueue_scripts", "OSA_enqueue_script");
+add_action('wp_head', 'OSA_insert_head');
 
-
-function insert_head_OSA(){
+function OSA_enqueue_script(){
+	wp_enqueue_script("jquery");
+}
+function OSA_insert_head(){
     ?>
     <script type="text/javascript" src="<?php echo plugins_url( 'OS-Adder.js' , __FILE__ );?>"></script>
-
     <?php
-
 }
-
-
-
-
-
-
 ?>
