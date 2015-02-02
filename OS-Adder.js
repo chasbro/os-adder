@@ -26,10 +26,14 @@ var OS_Adder={
     },
     // returns the operating system or "os-unknown"
     getOS:function(){
-      if (navigator.platform.toUpperCase().indexOf('MAC')!==-1) return "mac";
+      if (navigator.platform.toUpperCase().indexOf('MAC')!==-1) return ("mac");
       else if(navigator.platform.toUpperCase().indexOf('WIN')!==-1) return "win";
       else if(navigator.platform.toUpperCase().indexOf('IPAD')!==-1) return "iPad";
+      else if(navigator.platform.toUpperCase().indexOf('IPOD')!==-1) return "iPod";
+      else if(navigator.platform.toUpperCase().indexOf('IPHONE')!==-1) return "iPhone";
+      else if(navigator.platform.toUpperCase().indexOf('LINUX ARMV7L')!==-1) return "android";
       else if(navigator.platform.toUpperCase().indexOf('LINUX')!==-1) return "linux";
+      else if(navigator.platform.toUpperCase().indexOf('ARM')!==-1) return "smartphone";
       else return "os-unknown";
     },
     // returns the language-abbreviation or "lang-unknown"

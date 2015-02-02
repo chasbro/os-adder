@@ -2,12 +2,12 @@
 Contributors: trauben-nuss
 Tags: Css, Class, add Class, Operating System, body, determine OS, OS-Hacks
 Requires at least: 3.0.1
-Tested up to: 3.6
-Stable tag: 0.1
+Tested up to: 4.1
+Stable tag: 0.2
 License: GPLv2 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add the operating-system's abbreviation ("win", "mac", "linux") as a CSS-Class to the body-tag.
+Add the operating-system's abbreviation ("win", "mac", "linux", "iPad", "iPhone") as a CSS-Class to the body-tag.
 
 == Description ==
 
@@ -33,7 +33,8 @@ let me know, if you wish something helpful.
 
 = Does the added Class also tell me if it's a 32 or 64 bit OS? =
 
-No, it's just "win", "mac", "linux", or "os-unknown".
+No, it's just "win", "mac", "linux", iPad, iPod, iPhone or "os-unknown".
+When it's a "Linux armv7l"-machine, the plugin outputs "android".
 
 
 
@@ -45,4 +46,7 @@ No, it's just "win", "mac", "linux", or "os-unknown".
 
 = 0.1 =
 * Starting the plugin
+
+= 0.2 =
+* adding some Devices
 
