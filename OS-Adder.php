@@ -2,7 +2,7 @@
 /*
 Plugin Name: OS-Adder
 Description: This Plugin provides a class for the body-element that includes the used OS and the used language
-Version: 0.1
+Version: 0.2
 Author: Lukas Kindermann
 */
 ?>
