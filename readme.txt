@@ -44,9 +44,10 @@ When it's a "Linux armv7l"-machine, the plugin outputs "android".
 
 == Changelog ==
 
+= 0.2 =
+* adding some Devices
+
 = 0.1 =
 * Starting the plugin
 
-= 0.2 =
-* adding some Devices
 
