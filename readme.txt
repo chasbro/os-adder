@@ -7,7 +7,7 @@ Stable tag: 0.2
 License: GPLv2 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add the operating-system's abbreviation ("win", "mac", "linux", "iPad", "iPhone") as a CSS-Class to the body-tag.
+Add the operating-system's abbreviation as a CSS-Class to the body-tag.
 
 == Description ==
 
