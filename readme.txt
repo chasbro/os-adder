@@ -11,7 +11,7 @@ Add the operating-system's abbreviation ("win", "mac", "linux", "iPad", "iPhone"
 
 == Description ==
 
-This plugin adds a abbreviation of the operating system (win, mac, linux) to the body-tag.
+This plugin adds a abbreviation of the operating system (win, mac, linux, iPad, iPhone) to the body-tag.
 So if there's a OS-specific difference, you can easily react to it by using the css-selector (e.g. ".mac").
 
 Next steps of this plugin:
